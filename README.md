@@ -35,9 +35,9 @@ In the Graphical CLI frame, run the following commands:
 !!First Time Run Warning!!
 ----------------
 The first time you run this script, it will 'catch up' to your current level, which may spam chat.
-You can avoid this by typing the following command in the CLI, where <Your Current Level> is your level (ex: 15)
+You can avoid this by typing the following command in the CLI, where [Your Current Level] is your level (ex: 15)
 <pre>
-set Chat_Dings <Your Current Level>
+set Chat_Dings [Your Current Level]
 </pre>
 an example:
 <pre>
