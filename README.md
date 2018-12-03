@@ -32,3 +32,14 @@ In the Graphical CLI frame, run the following commands:
 		alias dingoff => set afterAdventureScript=
 </pre>	
 	Then it can be enabled/disabled with dingon/dingoff
+!!First Time Run Warning!!
+----------------
+The first time you run this script, it will 'catch up' to your current level, which may spam chat.
+You can avoid this by typing the following command in the CLI, where <Your Current Level> is your level (ex: 15)
+<pre>
+set Chat_Dings <Your Current Level>
+</pre>
+an example:
+<pre>
+set Chat_Dings 15
+</pre>
