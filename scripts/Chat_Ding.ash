@@ -6,7 +6,7 @@
 	In the Graphical CLI frame, run the following commands:
 
 		set relayRunsAfterAdventureScript=true
-		set afterAdventureScript=Chat_Dings.ash
+		set afterAdventureScript=Chat_Ding.ash
 
 	Now, Mafia will "Ding!" in chat whenever you level up (after the combat adventures)
 	
@@ -16,7 +16,7 @@
 	
 	Mafia aliases are useful for shortening the commands, e.g. like this:
 	
-		alias dingon => set afterAdventureScript=Chat_Dings.ash
+		alias dingon => set afterAdventureScript=Chat_Ding.ash
 		alias dingoff => set afterAdventureScript=
 	
 	Then it can be enabled/disabled with dingon/dingoff
