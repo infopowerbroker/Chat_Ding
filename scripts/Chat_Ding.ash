@@ -33,12 +33,12 @@ void main(){
 	}
 	if(to_int(get_property("Chat_Dings")) < my_level()){
 		If((my_level() - to_int(get_property("Chat_Dings")))>9){ 
-			Print("Ding! Ding! Ding! ("+(my_level() - to_int(get_property("Chat_Dings")))+") levels jumped!");
+			chat_clan("Ding! Ding! Ding! ("+(my_level() - to_int(get_property("Chat_Dings")))+") levels jumped!");
 		}
 		else{
 			while(to_int(get_property("Chat_Dings")) < my_level()){
 			set_property("Chat_Dings", to_int(get_property("Chat_Dings"))+1);
-			print("Ding! "+"("+ to_int(get_property("Chat_Dings")) +")");
+			chat_clan("Ding! "+"("+ to_int(get_property("Chat_Dings")) +")");
 			print("Telling Everyone in Chat: Ding! "+"("+ to_int(get_property("Chat_Dings")) +")");
 			wait(1);
 			}
