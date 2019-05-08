@@ -27,7 +27,7 @@ void main(){
 		print("initializing Value at level "+my_level());
 	}
 	
-	if(to_boolean((to_int(my_daycount()) == 1)) & to_boolean((to_int(get_property("Chat_Dings") > my_level())))){
+	if(to_boolean((to_int(my_daycount()) == 1)) & to_boolean((to_int(get_property("Chat_Dings")) > my_level())))){
 		set_property("Chat_Dings",1);
 		print("Resetting the Ding Counter, Welcome Back, N00b.");
 	}
