@@ -10,7 +10,7 @@ How do I use it?
 First, install it by running this command in KoLmafia's graphical CLI:
 
 <pre>
-svn checkout https://github.com/infopowerbroker/Chat_Ding/branches/release/
+git checkout https://github.com/infopowerbroker/Chat_Ding.git release
 </pre>
 
 Once it's installed, type the following commands: 
