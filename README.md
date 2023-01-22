@@ -20,15 +20,15 @@ In the Graphical CLI frame, run the following commands:
 		set relayRunsAfterAdventureScript=true
 		set afterAdventureScript=Chat_Ding.ash
 </pre>
-	Now, Mafia will "Ding!" in chat whenever you level up (after the combat adventures)
+Now, Mafia will "Ding!" in chat whenever you level up (after the combat adventures)
 	
-	The script can be disabled by running this command:
+The script can be disabled by running this command:
 <pre>
 		set afterAdventureScript=
 </pre>
-	Mafia aliases are useful for shortening the commands, e.g. like this:
+Mafia aliases are useful for shortening the commands, e.g. like this:
 <pre>	
 		alias dingon => set afterAdventureScript=Chat_Ding.ash
 		alias dingoff => set afterAdventureScript=
 </pre>	
-	Then it can be enabled/disabled with dingon/dingoff
+Then it can be enabled/disabled with dingon/dingoff
